@@ -27,7 +27,6 @@ padding: 2% 0% 0% 15%;
 }
 
 .cabecalho__menu {
-width: 50%;
 display: flex;
 gap: 80px;
 }
