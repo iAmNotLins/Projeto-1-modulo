@@ -137,6 +137,7 @@ font-size: 1.5rem;
     .cabecalho__menu {
         justify-content: center;
         gap: 76px;
+        width: auto;
     }
     .apresentacao  {
        
