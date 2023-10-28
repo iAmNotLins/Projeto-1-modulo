@@ -108,6 +108,10 @@ font-size: 1.5rem;
 
 .apresentacao__imagem {
     width: 50%;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
 }
 .rodape {
     padding: 24px;
@@ -118,16 +122,6 @@ font-size: 1.5rem;
     font-weight: 400;
     font-size: 1.5rem;
 }
-
-.curriculo {
-    border-top-left-radius: 20%;
-    border-bottom-right-radius: 20%;
-    border-top-right-radius: 20%;
-    border-bottom-left-radius: 20%;
-    width: 400px;
-    height: 400px;
-}
-
 
 @media (max-width: 1200px) {
 
