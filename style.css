@@ -9,6 +9,15 @@
 --fonte-secundaria: 'Montserrat', sans-serif;
 }
 
+body.tema-claro {
+    --cor-primaria: #DAFFFB;
+    --cor-secundaria: #001C30;
+    --cor-terciaria: #176B87;
+    --cor-hover: #64CCC5;
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+  }
+
 *{
     margin: 0;
     padding: 0;
@@ -208,3 +217,16 @@ font-size: 1.5rem;
     border-bottom-left-radius: 20%;
 }
 
+#theme-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: var(--cor-primaria);
+  background-color: var(--cor-secundaria);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#theme-button:hover {
+  background-color: var(--cor-terciaria);
+}
